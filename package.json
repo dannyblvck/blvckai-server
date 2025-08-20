@@ -1,1 +1,20 @@
+{
+  "name": "blvckai-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server_blvckai_beehiiv.js",
+  "scripts": {
+    "start": "node server_blvckai_beehiiv.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.56.0",
+    "stripe": "^16.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
 
