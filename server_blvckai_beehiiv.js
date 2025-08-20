@@ -71,5 +71,5 @@ const stripe = process.env.STRIPE_SECRET ? new Stripe(process.env.STRIPE_SECRET)
 app.post('/create-checkout-session', async (req,res)=>{
   try{
     if(!stripe) return res.status(501).json({ error:'Stripe not configured' });
-    const p
+
 
